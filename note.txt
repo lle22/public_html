@@ -1,0 +1,6 @@
+soft:
+1- wampserver2.5-Apache-2.4.9-Mysql-5.6.17-php5.5.12-32b.exe
+2-  "C:\Program Files\iGetter\iGetter.exe"
+
+SELECT a.product_id, a.price, b.meta_title FROM oc_product a, oc_product_description b
+WHERE a.product_id = b.product_id order by b.meta_title
